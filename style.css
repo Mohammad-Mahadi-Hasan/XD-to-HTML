@@ -706,7 +706,7 @@ font-family: 'Poppins', sans-serif;
 .footer1 {
     width: 19%;
     margin-left: 2.5%;
-    margin-right: 2.5%;
+    margin-right: 6%;
     text-align: center;
 }
 .Footer1Img{
@@ -752,7 +752,6 @@ font-family: 'Poppins', sans-serif;
     text-align: left;
     width: 19%;
     margin-left: 2.5%;
-    margin-right: 2.5%;
 }
 .footer2 h6{
     color: whitesmoke;
@@ -779,7 +778,6 @@ font-family: 'Poppins', sans-serif;
 }
 .footer3 {
     width: 19%;
-    margin-left: 2.5%;
     margin-right: 2.5%;
     line-height: 26px;
 }
@@ -801,7 +799,6 @@ font-family: 'Poppins', sans-serif;
 }
 .footer4 {
     width: 19%;
-    margin-left: 2.5%;
     margin-right: 2.5%;
     line-height: 26px;
 }
