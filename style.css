@@ -2,25 +2,38 @@
 
 
 *{margin: 0;padding: 0; box-sizing: border-box;}
-@import url('https://fonts.googleapis.com/css2?family=Questrial&family=Red+Hat+Display:wght@400;500;700;900&display=swap');
-body{ min-width: 960px; margin: 0 auto; font-family: 'Red Hat Display', sans-serif; color: #42495B; font-weight: 700;}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lobster&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lobster&family=Lobster+Two&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{ min-width: 960px; margin: 0 auto; color: #FFFFFF; 
+    /* font-weight: 700; */
+}
 .fl{float:left;}
 .fr{float: right;}
 .fix{overflow: hidden;}
-h1{ font-size: 40px;font-family: 'Red Hat Display', sans-serif;font-weight: 700;}
-h2{font-family: 'Red Hat Display', sans-serif; }
-h3{font-family: 'Red Hat Display', sans-serif; font-size: 30px; }
-h6{font-weight: 100;font-size: 13px;color: #190ae2;}
-p{ font-size: 16px; color:#7A839E;font-family: 'Questrial', sans-serif; opacity: 0.6;font-weight: 500;line-height: 20px;}
-h2{font-size: 35px;font-family: 'Red Hat Display', sans-serif;font-weight: 700;}
-ul li{list-style: none;display: inline-block;}
-ul li a{text-decoration: none ; font-size: 18px;font-family: 'Questrial', sans-serif; }
-a{text-decoration: none;font-size: 16px; font-weight: 700;font-family: 'Questrial', sans-serif; }
-input[type=text]{font-family: 'Questrial', sans-serif;}
-input[type=submit]{font-family: 'Questrial', sans-serif;}
+h1{ font-size: 40px; font-weight: 700;}
+h2{font-size: 30px; }
+h3{ font-size: 30px; }
+p{ font-size: 20px;  opacity: 1; color: #878FA7; line-height: 25px; font-family: 'Poppins', sans-serif;
+font-weight: 100;}
+h2{font-size: 35px; font-weight: 700;}
+ul li{list-style: none; display: inline-block;}
+ul li a{text-decoration: none ;}
+a{text-decoration: none; font-weight: 700;}
+
+/* input[type=text]{
+}
+input[type=submit]{
+} */
 
 
-.container{width:98%;margin:0 auto; background-color: #fffbfb;}
+.container{width:98%;margin:0 auto; background-color: #FFFFFF;}
 .structure{width: 85%;margin:0 auto;}
 
 
@@ -45,7 +58,10 @@ input[type=submit]{font-family: 'Questrial', sans-serif;}
     width: 30%;
 }
 .navLogoIMg {
-    width: 65%;
+    margin-top: 10px;
+}
+.navLogoIMg img{
+    width: 60%;
 }
 .navMenu { 
     width: 70%;
@@ -61,6 +77,9 @@ input[type=submit]{font-family: 'Questrial', sans-serif;}
 .navMenu ul li a {
     margin: 0px 3px 0px 3px;
     color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+
 }
 .navMenu ul li a:hover {
     color: black;
@@ -134,28 +153,29 @@ input[type=submit]{font-family: 'Questrial', sans-serif;}
     filter: invert();
 }
 .headerbodyh2{
-margin-bottom: 10px;
+font-family: 'Poppins', sans-serif;
 }
 .headerbodyh2 h2 {
     font-weight: 400;
+    color: #42495B;
 }
 .headerbodyh1 {
-    margin-top: 0px;
-    margin-bottom: 12px;
+    font-family: 'Poppins', sans-serif;
 }
 .headerbodyh1 h1{
     font-size: 55px;
     font-weight: 700;
+    color: #42495B;
 }
 .headerbodyp { 
-    width:32% ;
-    margin-bottom: 10px;
+    width:40% ;
 }
 .headerbodyp p{
     margin-bottom: 20px
+
 }
 .headerbtn input[type=submit] {
-    background-image: linear-gradient(to right, rgb(25, 10, 226) 60%, rgb(111, 105, 240));
+    background: linear-gradient(90deg, rgba(26,18,159,1) 50%, rgba(68,58,212,1) 100%);
     border: none;
     border-radius: 26px;
     padding: 12px 22px;
@@ -163,6 +183,8 @@ margin-bottom: 10px;
     color: whitesmoke;
     font-weight: 700;
     box-shadow: rgb(151 146 228) 0px 0px 3px;
+    font-family: 'Poppins', sans-serif;
+
 }
 .headerbtn input[type=submit]:hover{
     box-shadow: 0px 0px 10px #190ae2;
@@ -213,10 +235,10 @@ margin-bottom: 10px;
     content: "";
     position: absolute;
     z-index: -1;
-    height: 115%;
+    height: 102%;
     width: 40%;
-    top: -40px;
-    left: 10px;
+    top: 0px;
+    left: 30px;
     background-image: url(images/biography1.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -226,31 +248,39 @@ margin-bottom: 10px;
     margin-left: 560px;
 }
 .biographyTexth4{
-    color: #190ae2;
+    color: #7E76F9;
+    font-family: 'Lobster', cursive;
+}
+.biographyTexth4 h4{
+    font-weight: 100;
+
 }
 .biographyTexth1{
     margin-top: 10px;
     margin-bottom: 10px;
 }
 .biographyTexth1 h1{
-   font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: #42495B;
 }
 .biographyTexthp1 {
     width: 100%;
     margin-bottom: 20px;
 }
 .biographyTexthp2 {
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 .biographybtn input[type=submit]{
-    background-image: linear-gradient(to right, #8a83f1 60%,#665ff3);
+    background: linear-gradient(90deg, rgba(26,18,159,1) 50%, rgba(68,58,212,1) 100%);
     border: none;
     border-radius: 26px;
     padding: 10px 25px;
-    font-size: 18px;
+    font-size: 16px;
     color: whitesmoke;
     font-weight: 700;
     box-shadow:0px 0px 3px #9792e4;
+    font-family: 'Poppins', sans-serif;
+
 }
 .biographybtn input[type=submit]:hover{
      box-shadow: 0px 0px 10px #190ae2;
@@ -283,7 +313,7 @@ margin-bottom: 10px;
     background-size: cover;
 }
 .whatWeOfferSection {
-    padding: 150px 0px 150px 0px;
+    padding: 100px 0px 150px 0px;
 }
 .whatWeOfferhead{
     width: 50%;
@@ -291,8 +321,16 @@ margin-bottom: 10px;
 }
 .whatweofferh4{
     margin-bottom: 10px;
-    color: #1100ff;
+    font-family: 'Lato', sans-serif;
+    color: #7E76F9;
 }
+.whatweofferh4 h4{
+    font-weight: 600;
+
+}
+.whatweofferh1 h1{
+    font-family: 'Poppins', sans-serif;
+    color: #42495B;}
 .WHatWEOfferCarts {
     padding: 43px 0px 0px 0px;
 }
@@ -300,14 +338,14 @@ margin-bottom: 10px;
     margin: 10px 20px;
     padding: 46px 29px;
     border-radius: 10px;
-    box-shadow: 0px 0px 3px #9792e4;
+    box-shadow: 0px 0px 5px #F6F4FE;
     box-sizing: border-box;
     width: 330px;
-    height: 400px;
+    height: 450px;
 }
 .WHatWEOfferCart:hover{
     transition: all .3s ease;
-    box-shadow: 0px 0px 11px #190ae2;
+    box-shadow: 0px 0px 5px #7f7c88;
 }
 .cardimg {
     width: 30%;
@@ -322,27 +360,35 @@ margin-bottom: 10px;
     margin-bottom: 12px;
 }
 .cardTexth5 h5{
-    font-size: 15px;
+    font-size: 16px;
+    color: #42495B;
+    font-family: 'Poppins', sans-serif;
+
 }
 .cardTextp {
     margin-bottom: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+
 }
 .cardbtn1{
     margin-left: 180px;
-    margin-top: 34px;
+    margin-top: 30px;
 }
 .cardbtn1 input[type=submit] {
-    background-image: linear-gradient(to right, #190ae2 60%,#6f69f0);
+    background: linear-gradient(90deg, rgba(26,18,159,1) 50%, rgba(68,58,212,1) 100%);
     border: none;
     border-radius: 26px;
     padding: 10px 20px;
-    font-size: 12px;
+    font-size: 14px;
     color: whitesmoke;
     font-weight: 700;
     box-shadow: 0px 0px 3px #9792e4;
+    font-family: 'Poppins', sans-serif;
+
 }
 .cardbtn1 input[type=submit]:hover{
-    box-shadow: 0px 0px 10px #190ae2;
+    box-shadow: 0px 0px 10px #9792e4;
     cursor: pointer;
 }
 
@@ -353,17 +399,19 @@ margin-bottom: 10px;
     margin-top: 55px;
 }
 .cardbtn2 input[type=submit] {
-    background-image: linear-gradient(to right, #190ae2 60%,#6f69f0);
+    background: linear-gradient(90deg, rgba(26,18,159,1) 50%, rgba(68,58,212,1) 100%);
     border: none;
     border-radius: 26px;
     padding: 10px 20px;
-    font-size: 12px;
+    font-size: 14px;
     color: whitesmoke;
     font-weight: 700;
     box-shadow: 0px 0px 3px #9792e4;
+    font-family: 'Poppins', sans-serif;
+
 }
 .cardbtn2 input[type=submit]:hover{
-    box-shadow: 0px 0px 10px #190ae2;
+    box-shadow: 0px 0px 10px #9792e4;
     cursor: pointer;
 }
 
@@ -374,17 +422,19 @@ margin-bottom: 10px;
     margin-top: 40px;
 }
 .cardbtn3 input[type=submit] {
-    background-image: linear-gradient(to right, #190ae2 60%,#6f69f0);
+    background: linear-gradient(90deg, rgba(26,18,159,1) 50%, rgba(68,58,212,1) 100%);
     border: none;
     border-radius: 26px;
     padding: 10px 20px;
-    font-size: 12px;
+    font-size: 14px;
     color: whitesmoke;
     font-weight: 700;
     box-shadow: 0px 0px 3px #9792e4;
+    font-family: 'Poppins', sans-serif;
+
 }
 .cardbtn3 input[type=submit]:hover{
-    box-shadow: 0px 0px 10px #190ae2;
+    box-shadow: 0px 0px 10px #9792e4;
     cursor: pointer;
 }
 
@@ -392,20 +442,22 @@ margin-bottom: 10px;
 
 .cardbtn4{
     margin-left: 180px;
-    margin-top: 55px;
+    margin-top: 35px;
 }
 .cardbtn4 input[type=submit] {
-    background-image: linear-gradient(to right, #190ae2 60%,#6f69f0);
+    background: linear-gradient(90deg, rgba(26,18,159,1) 50%, rgba(68,58,212,1) 100%);
     border: none;
     border-radius: 26px;
     padding: 10px 20px;
-    font-size: 12px;
+    font-size: 14px;
     color: whitesmoke;
     font-weight: 700;
     box-shadow: 0px 0px 3px #9792e4;
+    font-family: 'Poppins', sans-serif;
+
 }
 .cardbtn4 input[type=submit]:hover{
-    box-shadow: 0px 0px 10px #190ae2;
+    box-shadow: 0px 0px 10px #9792e4;
     cursor: pointer;
 }
 
@@ -416,17 +468,19 @@ margin-bottom: 10px;
     margin-top: 33px;
 }
 .cardbtn5 input[type=submit] {
-    background-image: linear-gradient(to right, #190ae2 60%,#6f69f0);
+    background: linear-gradient(90deg, rgba(26,18,159,1) 50%, rgba(68,58,212,1) 100%);
     border: none;
     border-radius: 26px;
     padding: 10px 20px;
-    font-size: 12px;
+    font-size: 14px;
     color: whitesmoke;
     font-weight: 700;
     box-shadow: 0px 0px 3px #9792e4;
+    font-family: 'Poppins', sans-serif;
+
 }
 .cardbtn5 input[type=submit]:hover{
-    box-shadow: 0px 0px 10px #190ae2;
+    box-shadow: 0px 0px 10px #9792e4;
     cursor: pointer;
 }
 
@@ -434,20 +488,22 @@ margin-bottom: 10px;
 
 .cardbtn6{
     margin-left: 180px;
-    margin-top: 23px;
+    margin-top: 35px;
 }
 .cardbtn6 input[type=submit] {
-    background-image: linear-gradient(to right, #190ae2 60%,#6f69f0);
+    background: linear-gradient(90deg, rgba(26,18,159,1) 50%, rgba(68,58,212,1) 100%);
     border: none;
     border-radius: 26px;
     padding: 10px 20px;
-    font-size: 12px;
+    font-size: 14px;
     color: whitesmoke;
     font-weight: 700;
     box-shadow: 0px 0px 3px #9792e4;
+    font-family: 'Poppins', sans-serif;
+
 }
 .cardbtn6 input[type=submit]:hover{
-    box-shadow: 0px 0px 10px #190ae2;
+    box-shadow: 0px 0px 10px #9792e4;
     cursor: pointer;
 }
 
@@ -467,10 +523,22 @@ margin-bottom: 10px;
 .ourPricingHead {
     text-align: center;
 }
-.pricingh4 h4{
+.pricingh4{
+    font-family: 'Lobster', cursive;
     font-size: 18px;
-    color: blue;
     margin-bottom: 20px;
+
+
+}
+.pricingh4 h4{
+    font-weight: 100;
+    color: #7E76F9;
+
+}
+.pricingh1 h1{
+    font-family: 'Poppins', sans-serif;
+    color: #42495B;
+
 }
 .pricingCarts{
     padding: 25px 0px 25px 64px;
@@ -482,20 +550,23 @@ margin-bottom: 10px;
     margin: 10px 10px;
     padding: 24px 30px;
     border-radius: 10px;
-    box-shadow: 0px 0px 3px #9792e4;
+    box-shadow: 0px 0px 3px gray;
     text-align: center;
-    background-color: whitesmoke;
+    background-color: #FFFFFF;
 }
 .pricingCart:hover{
     transition: all .3s ease;
-    box-shadow: 0px 0px 11px #190ae2;
+    box-shadow: 0px 0px 15px gray;
 }
 .PricingCarth5 {
     padding-bottom: 20px;
 }
 .PricingCarth5 h5{
     font-size: 25px;
-    font-weight: 100;
+    font-family: 'Lato', sans-serif;
+    color: #42495B;
+    font-weight: 200;
+
 }
 .PricingCartp {
     padding-bottom: 20px;
@@ -510,7 +581,7 @@ margin-bottom: 10px;
 .PricingCartp2 p{
     font-size: 22px;
     font-weight: 800;
-    color:#1100ff ;
+    color:#1000FF ;
 }
 .pricingbtn{
     margin-top: 30px;
@@ -518,13 +589,16 @@ margin-bottom: 10px;
 .pricingbtn input[type=submit] {
     border: 1px solid #1100ff;
     padding: 7px 21px;
-    font-size: 12px;
+    font-size: 14px;
     border-radius: 26px;
     color: #42495B;
     background-color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+
+
 }
 .pricingbtn input[type=submit]:hover {
-    background-image: linear-gradient(to right, #3224eb ,#8681e9);
+    background: linear-gradient(90deg, rgba(26,18,159,1) 50%, rgba(68,58,212,1) 100%);
     box-shadow: 0px 0px 8px #8881e0;
     color: whitesmoke;
     cursor: pointer;
@@ -552,24 +626,39 @@ margin-bottom: 10px;
 .newslettersbtn {
     margin-top: 40px;
 }
+.newslettersheadh4 h4{
+    color: #7E76F9;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    opacity: 1;
+    font-size: 18px;
+}
+.newslettersHeadh3 h3{
+    font-family: 'Poppins', sans-serif;
+    color: #42495B;
+    font-weight: 500;
+
+}
 .newslettersbtn input[type=text]{
-    width: 44%;
-    padding: 13px 11px;
+    width: 40%;
+    padding: 20px 10px;
     border: none;
     box-shadow: 0px 0px 1px #9d9d9d;
     border-radius: 3px;
     margin-right: 15px;
-    font-size: 10px;
-    background-color: rgb(243 242 242);
+    font-size: 15px;
+    background-color: #F6F7FB;
 }
 .newslettersbtn input[type=submit]{
-    background-image: linear-gradient(to right, #190ae2 60%,#6f69f0);
+    background: linear-gradient(90deg, rgba(26,18,159,1) 50%, rgba(68,58,212,1) 100%);
     border: none;
     border-radius: 26px;
     padding: 13px 27px;
-    font-size: 11px;
+    font-size: 16px;
     color: whitesmoke;
-    font-weight: 700;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+
 }
 .newslettersbtn input[type=submit]:hover{
     box-shadow: 0px 0px 10px #8881e0;
@@ -594,9 +683,9 @@ margin-bottom: 10px;
     content: '';
     position: absolute;
     z-index: -1;
-    height: 284%;
-    width: 190%;
-    left: -1076px;
+    height: 278%;
+    width: 200%;
+    left: -1180px;
     bottom: 0px;
     background-image: url(images/footer1.png);
     background-repeat: no-repeat;
@@ -606,10 +695,10 @@ margin-bottom: 10px;
     content: '';
     position: absolute;
     z-index: -1;
-    height: 245%;
+    height: 240%;
     width: 155%;
-    left: -385px;
-    bottom: 0px;
+    left: -350px;
+    bottom: -100px;
     background-image: url(images/footer2.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -623,18 +712,35 @@ margin-bottom: 10px;
 .Footer1Img{
    width: 10%;
    display: inline-block;
+   margin-right: 20px;
 }
 .Footer1Img img{
    width: 100%;
 }
+.Footer1fImg{
+    width: 10%;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+    .Footer1fImg img{
+        width: 50%;
+    }
+
 .footer1 h2{
     color: whitesmoke;
-    font-size: 22px;
+    font-size: 50px;
     margin-bottom: 10px;
+    font-weight: 100;
+    font-family: 'Dosis', sans-serif;
 }
 .footer1 h4{
     color: whitesmoke;
     margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 31px;
+    font-weight: 400;
+
 }
 .footerSocial a{
     padding-right: 20px;
@@ -654,13 +760,22 @@ margin-bottom: 10px;
     margin-bottom: 20px;
 }
 
+.footer2 h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+
+}
 .footer2menu a{
     display: block;
-    color: whitesmoke;
+    color: white;
     margin-bottom: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+
 }
 .footer2menu a:hover{
-      filter: invert(50%);
+      filter: invert();
 }
 .footer3 {
     width: 19%;
@@ -668,13 +783,21 @@ margin-bottom: 10px;
     margin-right: 2.5%;
     line-height: 26px;
 }
+.footer3 h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+
+}
 .footer3 a{
-    color: whitesmoke;
+    color: white;
     font-size: 15px;
     margin-bottom: 7px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
 }
 .footer3 a:hover{
-    filter: invert(50%);
+    filter: invert();
 }
 .footer4 {
     width: 19%;
@@ -682,12 +805,20 @@ margin-bottom: 10px;
     margin-right: 2.5%;
     line-height: 26px;
 }
+.footer4 h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+
+}
 .footer4 h6{
-    color: whitesmoke;
+    color: white;
     font-size: 14px;
 }
 .footer4 a{
-    color: whitesmoke;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
 }
 .footer4 a:hover{
     filter: invert();
@@ -696,6 +827,7 @@ margin-bottom: 10px;
     width: 6%;
     display: inline-block;
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 .footer4Img img{
     width: 100%;
